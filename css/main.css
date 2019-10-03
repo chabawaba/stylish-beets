@@ -3,17 +3,33 @@ html {
   line-height: 1.5;
 }
 
+header {
+  font-family: "Pt Sans", sans-serif;
+  font-weight: bold;
+}
+
 h1, h2 {
   color: #3f1622;
   font-weight: bold;
-  font-family: "Pt Sans";
+  font-family: "Pt Sans", sans-serif;
   font-size: 1.5rem;
+}
+
+header nav ol a {
+  text-decoration: none;
+  font-size: 1.125rem;
+  color: #8f2440;
+  line-height: 1.5;
 }
 
 nav {
   color: #8f2440;
   font-family: "PT Sans";
   font-weight: bold;
+}
+p.bold {
+  font-weight: bold;
+  font-size: 1.125rem;
 }
 
 small {
@@ -33,13 +49,17 @@ h1, li {
   font-size: .8rem;
 }
 
+header nav ol li {
+  list-style: none;
+}
+
 em, figcaption, cite, i, blockquote li {
   font-style: italic;
 }
 
-nav a:hover {
+header nav ol a:hover {
   text-decoration: underline;
-  color: #8f2440;
+  color: #3f1622;
 }
 
 ul {
@@ -54,6 +74,16 @@ img {
   width: 100%;
 }
 
-a {
+footer small {
+  color: #000;
+}
+
+footer small a {
   text-decoration: none;
+  color: #8f2440;
+}
+
+footer small a:hover  {
+  text-decoration: underline;
+  color: #3f1622;
 }
