@@ -16,16 +16,13 @@ nav {
   font-weight: bold;
 }
 
-img {
-  100%
-}
-
-a:ol {
-
-}
-
 small {
   color: #8f2440;
+}
+
+body {
+  font-weight: normal;
+  font-family: "PT Serif";
 }
 
 nav, p, blockquote {
@@ -33,14 +30,30 @@ nav, p, blockquote {
 }
 
 h1, li {
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
 
 em, figcaption, cite, i, blockquote li {
   font-style: italic;
 }
 
-a:hover {
+nav a:hover {
   text-decoration: underline;
   color: #8f2440;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+dl {
+  list-style-type: lower-alpha;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
 }
