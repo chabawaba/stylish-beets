@@ -1,7 +1,12 @@
-background {
-  color: #c9b5ab;
+html {
+  background-color: #c9b5ab;
+
 }
 
-navigation {
+h1, h2 {
+  color: #3f1622;
+}
+
+nav {
   font-color: #8f2440;
 }
