@@ -1,12 +1,39 @@
 html {
   background-color: #c9b5ab;
-
 }
 
 h1, h2 {
   color: #3f1622;
+  font-style: bold;
+  font-family: "Pt Sans"
 }
 
 nav {
-  font-color: #8f2440;
+  color: #8f2440;
+  font-family: 'PT Sans';
+  font-style: bold;
+}
+
+small: {
+  color: #8f2440;
+}
+
+html: {
+  line-height: 1.5;
+}
+
+h1, h2 {
+  font-size: 1.5rem;
+}
+
+nav, p, blockquote, {
+  font-size: 1.125rem;
+}
+
+h1, li {
+  font-size: 0.8rem;
+}
+
+em, figcaption, cite, i, blockquote li: serving size {
+  font-style: italic;
 }
