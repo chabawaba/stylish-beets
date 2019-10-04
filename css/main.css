@@ -27,6 +27,11 @@ nav {
   font-family: "PT Sans";
   font-weight: bold;
 }
+
+aside ol li {
+  list-style-type: lower-greek;
+}
+
 p.bold {
   font-weight: bold;
   font-size: 1.125rem;
@@ -83,7 +88,7 @@ footer small a {
   color: #8f2440;
 }
 
-footer small a:hover  {
+footer small a:hover {
   text-decoration: underline;
   color: #3f1622;
 }
