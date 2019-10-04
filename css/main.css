@@ -3,9 +3,10 @@ html {
   line-height: 1.5;
 }
 
-header {
+header h1 {
   font-family: "Pt Sans", sans-serif;
   font-weight: bold;
+  font-size: 1.5rem;
 }
 
 h1, h2 {
@@ -79,11 +80,11 @@ img {
   width: 100%;
 }
 
-footer small {
+small footer {
   color: #000;
 }
 
-footer small a {
+small footer a {
   text-decoration: none;
   color: #8f2440;
 }
@@ -94,7 +95,7 @@ footer small a:hover {
 }
 
 a {
-  color: #82f2440;
+  color: #8f2440;
   text-decoration: none;
 }
 
