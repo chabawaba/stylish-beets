@@ -92,3 +92,13 @@ footer small a:hover {
   text-decoration: underline;
   color: #3f1622;
 }
+
+a {
+  color: #82f2440;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
+}
